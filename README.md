@@ -1,4 +1,4 @@
-# vue-animations
+# vue-animations 💚 
 
 ## Project setup
 ```

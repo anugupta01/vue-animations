@@ -15,5 +15,4 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Developed By [Anu Gupta](https://github.com/anugupta01/vue-animations)

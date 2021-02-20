@@ -5,6 +5,10 @@
       <Toast v-if="showToast" />
     </transition>
     <Todos @badValue="triggerToast" />
+    <br>
+    <h5 className="App-Developers-name">
+                Developed by : Anu Gupta
+              </h5>
   </div>
 </template>
 
@@ -30,11 +34,14 @@ export default {
 </script>
 
 <style>
-  /* enter transitions */
+  .App-Developers-name {
+  text-align: center !important;
+}
+ 
   .toast-enter-active {
     animation: wobble 0.5s ease;
   }
-  /* leave transitions */
+  
   .toast-leave-to {
     opacity: 0;
     transform: translateY(-60px);
